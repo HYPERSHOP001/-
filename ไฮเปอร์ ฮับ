@@ -45,3 +45,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame
 end
 end
 end)
+w:Toggle("วาปแลกลูกอม", function(v)
+   print(v)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-183.017258, 2.9343524, -753.653198, -0.99956584, 0.0011382954, 0.029443372, -8.49831849e-09, 0.999253452, -0.0386318937, -0.0294653606, -0.038615115, -0.998819709)
+end)
